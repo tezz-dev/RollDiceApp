@@ -16,3 +16,11 @@ withAnimation {
 
 If you get the solution, either email it to me at 1ms18is117@gmail.com
 or send it through whatsapp no. +91 861 89 83 585
+
+To do : 
+1. Fix the bug
+2. Add inner stroke to each side of the die
+3. Roll button to arbitrarily roll the die and get a result
+4. Improve the roll animation
+5? Multiple dice?
+6? Dealer v/s user : If the user wins +1, if the dealer wins -1
