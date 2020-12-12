@@ -13,3 +13,6 @@ withAnimation {
   //code
 }
 ```
+
+If you get the solution, either email it to me at 1ms18is117@gmail.com
+or send it through whatsapp no. +91 861 89 83 585
