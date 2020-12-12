@@ -11,6 +11,14 @@
 		7B1937FC2584DA4C00363810 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1937FB2584DA4C00363810 /* ContentView.swift */; };
 		7B1937FE2584DA4D00363810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1937FD2584DA4D00363810 /* Assets.xcassets */; };
 		7B1938012584DA4D00363810 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1938002584DA4D00363810 /* Preview Assets.xcassets */; };
+		7B19380A2584DB0900363810 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1938092584DB0900363810 /* BoxView.swift */; };
+		7B19380D25852A8A00363810 /* NumberOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19380C25852A8A00363810 /* NumberOneView.swift */; };
+		7B19381025852A9800363810 /* NumberTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19380F25852A9800363810 /* NumberTwoView.swift */; };
+		7B19381325852AA300363810 /* NumberThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19381225852AA300363810 /* NumberThreeView.swift */; };
+		7B19381625852AB000363810 /* NumberFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19381525852AB000363810 /* NumberFourView.swift */; };
+		7B19381925852AC100363810 /* NumberFiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19381825852AC100363810 /* NumberFiveView.swift */; };
+		7B19381C25852AD500363810 /* NumberSixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19381B25852AD500363810 /* NumberSixView.swift */; };
+		7B19381F25852BDA00363810 /* RectangleViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19381E25852BDA00363810 /* RectangleViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		7B1937FD2584DA4D00363810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B1938002584DA4D00363810 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B1938022584DA4D00363810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1938092584DB0900363810 /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		7B19380C25852A8A00363810 /* NumberOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOneView.swift; sourceTree = "<group>"; };
+		7B19380F25852A9800363810 /* NumberTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTwoView.swift; sourceTree = "<group>"; };
+		7B19381225852AA300363810 /* NumberThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberThreeView.swift; sourceTree = "<group>"; };
+		7B19381525852AB000363810 /* NumberFourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFourView.swift; sourceTree = "<group>"; };
+		7B19381825852AC100363810 /* NumberFiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFiveView.swift; sourceTree = "<group>"; };
+		7B19381B25852AD500363810 /* NumberSixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSixView.swift; sourceTree = "<group>"; };
+		7B19381E25852BDA00363810 /* RectangleViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,14 @@
 				7B1937FD2584DA4D00363810 /* Assets.xcassets */,
 				7B1938022584DA4D00363810 /* Info.plist */,
 				7B1937FF2584DA4D00363810 /* Preview Content */,
+				7B1938092584DB0900363810 /* BoxView.swift */,
+				7B19380C25852A8A00363810 /* NumberOneView.swift */,
+				7B19380F25852A9800363810 /* NumberTwoView.swift */,
+				7B19381225852AA300363810 /* NumberThreeView.swift */,
+				7B19381525852AB000363810 /* NumberFourView.swift */,
+				7B19381825852AC100363810 /* NumberFiveView.swift */,
+				7B19381B25852AD500363810 /* NumberSixView.swift */,
+				7B19381E25852BDA00363810 /* RectangleViewModifier.swift */,
 			);
 			path = RollDiceApp;
 			sourceTree = "<group>";
@@ -138,8 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B19381C25852AD500363810 /* NumberSixView.swift in Sources */,
+				7B19380D25852A8A00363810 /* NumberOneView.swift in Sources */,
+				7B19381025852A9800363810 /* NumberTwoView.swift in Sources */,
+				7B19381325852AA300363810 /* NumberThreeView.swift in Sources */,
 				7B1937FC2584DA4C00363810 /* ContentView.swift in Sources */,
+				7B19381625852AB000363810 /* NumberFourView.swift in Sources */,
+				7B19381925852AC100363810 /* NumberFiveView.swift in Sources */,
+				7B19381F25852BDA00363810 /* RectangleViewModifier.swift in Sources */,
 				7B1937FA2584DA4C00363810 /* RollDiceAppApp.swift in Sources */,
+				7B19380A2584DB0900363810 /* BoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
