@@ -26,8 +26,7 @@ struct BoxView: View {
             ZStack {
                 
                 Rectangle()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(Color.green)
+                    .modifier(RectangleViewModifier())
                     .overlay(
                         NumberThreeView()
                     )
@@ -42,8 +41,7 @@ struct BoxView: View {
                     .offset(x: horizontalTranslation ? CGFloat(diceNumberToXOffset(3)) : 0, y: horizontalTranslation ? 0 : CGFloat(diceNumberToYOffset(3)))
                 
                 Rectangle()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(Color.green)
+                .modifier(RectangleViewModifier())
                     .overlay(
                         NumberOneView()
                     )
@@ -60,8 +58,7 @@ struct BoxView: View {
                     
                 
                 Rectangle()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(Color.green)
+                .modifier(RectangleViewModifier())
                     .overlay(
                         NumberTwoView()
                     )
@@ -77,8 +74,7 @@ struct BoxView: View {
                 
                 
                 Rectangle()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(Color.green)
+                .modifier(RectangleViewModifier())
                     .overlay(
                         NumberSixView()
                     )
@@ -96,8 +92,7 @@ struct BoxView: View {
                 
                 
                 Rectangle()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(Color.green)
+                .modifier(RectangleViewModifier())
                     .overlay(
                         NumberFiveView()
                     )
@@ -111,8 +106,7 @@ struct BoxView: View {
                     .offset(x: horizontalTranslation ? CGFloat(diceNumberToXOffset(5)) : 0, y: horizontalTranslation ? 0 : CGFloat(diceNumberToYOffset(5)))
                 
                 Rectangle()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(Color.green)
+                .modifier(RectangleViewModifier())
                     .overlay(
                         NumberFourView()
                     )
